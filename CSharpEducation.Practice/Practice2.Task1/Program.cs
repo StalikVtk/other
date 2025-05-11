@@ -52,6 +52,19 @@ namespace Practice2.Task1
             }
             Console.WriteLine("Ваша фраза: " + userInput);
 
+            Console.WriteLine("\nDo While and Input string");
+
+            userInput = "";
+            j = 0;
+            do
+            {
+                Console.Write($"Введите слово №{j + 1}: ");
+                userInput += Console.ReadLine() + " ";
+                j++;
+            }
+            while (j < 3);
+            Console.WriteLine("Ваша фраза: " + userInput);
+
             Console.ReadKey();
         }
     }
