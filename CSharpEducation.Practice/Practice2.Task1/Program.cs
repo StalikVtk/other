@@ -11,6 +11,16 @@ namespace Practice2.Task1
             {
                 Console.Write(i + " ");
             }
+            
+            Console.WriteLine("\nWhile");
+            
+            int j = 0;
+            while (j < 10)
+            {
+                Console.Write(j + " ");
+                j++;
+            }
+
             Console.ReadKey();
         }
     }
