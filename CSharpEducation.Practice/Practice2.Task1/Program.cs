@@ -21,6 +21,15 @@ namespace Practice2.Task1
                 j++;
             }
 
+            Console.WriteLine("\ndo While");
+
+            do
+            {
+                Console.Write(j + " ");
+                j--;
+            }
+            while (j > 0);
+
             Console.ReadKey();
         }
     }
