@@ -30,6 +30,15 @@ namespace Practice2.Task1
             }
             while (j > 0);
 
+            Console.WriteLine("\nFor and Input string");
+
+            string userInput = "";
+            for (j = 0; j < 3; j++)
+            {
+                Console.Write($"Введите слово №{j + 1}: ");
+                userInput += Console.ReadLine() + " ";
+            }
+            Console.WriteLine("Ваша фраза: " + userInput);
             Console.ReadKey();
         }
     }
