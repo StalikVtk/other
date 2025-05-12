@@ -7,15 +7,18 @@ namespace Practice2.Task4
         static void Main(string[] args)
         {
             string symbol = "";
+            int height;
+            char symbolInpyt;
 
-            for (int i = 0; i < 15; i++)
+            Console.Write("Введите высоту треугольника: ");
+            height = Convert.ToInt32(Console.ReadLine());
+            
+            Console.Write("Введите символ для вставки: ");
+            symbolInpyt =Convert.ToChar(Console.ReadLine());
+
+            for (int i = 0; i < height + 1; i++)
             {
-                Console.WriteLine(symbol.PadRight(i, '*'));
-            }
-            for (int i = 0; i < 15; i++)
-            {
-                symbol += "*";
-                Console.WriteLine(symbol.PadLeft(15));
+                Console.WriteLine(symbol.PadRight(i, symbolInpyt));
             }
             Console.ReadKey();
         }
