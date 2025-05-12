@@ -9,8 +9,10 @@ namespace Practice2.Task2
         {
             float metre = 5400;
             float kilometer = metre / 1000;
+            float centimetre = kilometer * 10000;
 
             Console.Write($"В {metre} м. получается {kilometer} км.\n");
+            Console.Write($"В {kilometer} км. получается {centimetre} см.\n");
             Console.ReadKey();
         }
     }
