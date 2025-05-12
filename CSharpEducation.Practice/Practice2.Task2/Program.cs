@@ -19,6 +19,11 @@ namespace Practice2.Task2
 
             Console.Write($"{metreInSecond} м/с. равно {kilometerInHour} км/ч.\n");
 
+            float degreeCelsius = 29.8f;
+            float degreeFahrenheit = ((float)9 / 5) * degreeCelsius + 32;
+
+            Console.Write($"{degreeCelsius} градуса Цельсия = {degreeFahrenheit} градуса Фаренгейта");
+
             Console.ReadKey();
         }
     }
