@@ -6,13 +6,15 @@ namespace Practice2.Task7
     {
         static void Main(string[] args)
         {
-            string registerString;
+            string registerString = "привет";
+            string firstChar;
 
-            Console.Write("Введите строку: ");
-            registerString = Console.ReadLine().ToLower();
+            firstChar = registerString.Substring(0, 1).ToUpper();
+            registerString = registerString.Replace("п", firstChar);
 
-            Console.WriteLine("Строка в нижнем регистре: " + registerString);
+            Console.WriteLine(registerString);
             Console.ReadKey();
+
         }
     }
 }
