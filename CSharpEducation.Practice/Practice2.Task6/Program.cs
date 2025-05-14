@@ -15,17 +15,17 @@ namespace Practice2.Task6
             string inputChar;
             float percentInString;
 
-            Console.Write("Введите строку произвольной длины: ");
-            inputUser = Console.ReadLine();
+            inputUser = string.Join(" ", args);
 
-            Console.Write("Введите символ: ");
-            inputChar = Console.ReadLine();
+            inputChar = inputUser.Substring(inputUser.Length - 1);
+
+            inputUser = inputUser.Substring(0, inputUser.Length - 2);
 
             compareString = inputUser.Replace(inputChar, "");
 
             percentInString = (float)(inputUser.Length - compareString.Length) * 100 / inputUser.Length;
 
-            Console.WriteLine($"Процент вхождения символа в строке: = " + Math.Round(percentInString, 2) + "%");
+            Console.WriteLine("Процент вхождения символа '" + inputChar + "' в строке '" + inputUser + "'= " + Math.Round(percentInString, 2) + "%");
             Console.ReadKey();
         }
     }
