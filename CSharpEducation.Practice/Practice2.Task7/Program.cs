@@ -9,9 +9,9 @@ namespace Practice2.Task7
             string registerString;
 
             Console.Write("Введите строку: ");
-            registerString = Console.ReadLine().ToUpper();
+            registerString = Console.ReadLine().ToLower();
 
-            Console.WriteLine("Строка в верхнем регистре: " + registerString);
+            Console.WriteLine("Строка в нижнем регистре: " + registerString);
             Console.ReadKey();
         }
     }
