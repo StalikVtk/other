@@ -2,13 +2,15 @@
 using System;
 using System.CodeDom;
 using System.Collections.Generic;
-
+using System.Runtime.CompilerServices;
+using Logger;
 namespace Practice5.Task1С
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+            ILogger log = new ConsoleLogger(typeof(Program));
             List<Employee> employees = new List<Employee>
             {
                 new Employee("Рядовой сотрудник №1", 45000),
@@ -25,15 +27,18 @@ namespace Practice5.Task1С
                 {
                     Console.Write("Укажите количество отработанных часов для " + contractor.Name + ": ");
                     int hours = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine("Бонус для " + contractor.Name + " состовляет: " + contractor.CalculateBonus(hours));
+                    //Console.WriteLine("Бонус для " + contractor.Name + " состовляет: " + contractor.CalculateBonus(hours));
+                    log.Log("Бонус для " + contractor.Name + " состовляет: " + contractor.CalculateBonus(hours), LogLevel.Info);
                 }
                 else if (employee is Manager manager)
                 {
-                    Console.WriteLine("Бонус для " + manager.Name + " состовляет: " + manager.CalculateBonus());
+                    //Console.WriteLine("Бонус для " + manager.Name + " состовляет: " + manager.CalculateBonus());
+                    log.Log("Бонус для " + manager.Name + " состовляет: " + manager.CalculateBonus(), LogLevel.Info);
                 }
                 else
                 {
-                    Console.WriteLine("Бонус для " + employee.Name + " состовляет: " + employee.CalculateBonus());
+                    //Console.WriteLine("Бонус для " + employee.Name + " состовляет: " + employee.CalculateBonus());
+                    log.Log("Бонус для " + employee.Name + " состовляет: " + employee.CalculateBonus(), LogLevel.Debug);
                 }
             }
             Console.ReadKey();
