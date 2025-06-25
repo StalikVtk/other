@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Practice5.Task3d
 {
-    internal class Animal
+    public class Animal
     {
         private const int MinAge = 1;
         private const int MaxAge = 99;
