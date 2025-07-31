@@ -161,6 +161,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice7.Interface", "Prac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice7.IClonable", "Practice7.IClonable\Practice7.IClonable.csproj", "{FECFE1C2-5264-42CD-923F-49DD71704EF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice7.IComparableAndIComparer", "Practice7.IComparableAndIComparer\Practice7.IComparableAndIComparer.csproj", "{F6E00E6B-8B48-4BF5-A708-8D890997BE6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice7.IEnumerableAndIEnumerator", "Practice7.IEnumerableAndIEnumerator\Practice7.IEnumerableAndIEnumerator.csproj", "{DFD3A898-FDF1-4B08-A5C7-98FF2CE5D06A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -431,6 +435,14 @@ Global
 		{FECFE1C2-5264-42CD-923F-49DD71704EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FECFE1C2-5264-42CD-923F-49DD71704EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FECFE1C2-5264-42CD-923F-49DD71704EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6E00E6B-8B48-4BF5-A708-8D890997BE6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E00E6B-8B48-4BF5-A708-8D890997BE6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E00E6B-8B48-4BF5-A708-8D890997BE6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E00E6B-8B48-4BF5-A708-8D890997BE6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD3A898-FDF1-4B08-A5C7-98FF2CE5D06A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD3A898-FDF1-4B08-A5C7-98FF2CE5D06A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD3A898-FDF1-4B08-A5C7-98FF2CE5D06A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD3A898-FDF1-4B08-A5C7-98FF2CE5D06A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -502,6 +514,8 @@ Global
 		{B567F1D6-373C-4E98-8096-8596AB0DEE10} = {54424CF8-D546-49DD-9AC2-B22D592FEE4B}
 		{12AE737B-F3C2-4596-A17F-C6F35C905C2A} = {20C0112E-E097-4986-9772-002578FF9A22}
 		{FECFE1C2-5264-42CD-923F-49DD71704EF1} = {20C0112E-E097-4986-9772-002578FF9A22}
+		{F6E00E6B-8B48-4BF5-A708-8D890997BE6F} = {20C0112E-E097-4986-9772-002578FF9A22}
+		{DFD3A898-FDF1-4B08-A5C7-98FF2CE5D06A} = {20C0112E-E097-4986-9772-002578FF9A22}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C4B0EC8A-5C12-462E-84AF-9019663040A0}
