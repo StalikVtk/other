@@ -165,6 +165,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice7.IComparableAndICo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice7.IEnumerableAndIEnumerator", "Practice7.IEnumerableAndIEnumerator\Practice7.IEnumerableAndIEnumerator.csproj", "{DFD3A898-FDF1-4B08-A5C7-98FF2CE5D06A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice7.Indexers", "Practice7.Indexers\Practice7.Indexers.csproj", "{62C18003-1510-4E35-A542-99F8827B626A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice7.ExpandMethod", "Practice7.ExpandMethod\Practice7.ExpandMethod.csproj", "{5A02E99B-E421-4934-AA17-DE67B05547F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -443,6 +447,14 @@ Global
 		{DFD3A898-FDF1-4B08-A5C7-98FF2CE5D06A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFD3A898-FDF1-4B08-A5C7-98FF2CE5D06A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFD3A898-FDF1-4B08-A5C7-98FF2CE5D06A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62C18003-1510-4E35-A542-99F8827B626A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62C18003-1510-4E35-A542-99F8827B626A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62C18003-1510-4E35-A542-99F8827B626A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62C18003-1510-4E35-A542-99F8827B626A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A02E99B-E421-4934-AA17-DE67B05547F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A02E99B-E421-4934-AA17-DE67B05547F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A02E99B-E421-4934-AA17-DE67B05547F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A02E99B-E421-4934-AA17-DE67B05547F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -516,6 +528,8 @@ Global
 		{FECFE1C2-5264-42CD-923F-49DD71704EF1} = {20C0112E-E097-4986-9772-002578FF9A22}
 		{F6E00E6B-8B48-4BF5-A708-8D890997BE6F} = {20C0112E-E097-4986-9772-002578FF9A22}
 		{DFD3A898-FDF1-4B08-A5C7-98FF2CE5D06A} = {20C0112E-E097-4986-9772-002578FF9A22}
+		{62C18003-1510-4E35-A542-99F8827B626A} = {20C0112E-E097-4986-9772-002578FF9A22}
+		{5A02E99B-E421-4934-AA17-DE67B05547F4} = {20C0112E-E097-4986-9772-002578FF9A22}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C4B0EC8A-5C12-462E-84AF-9019663040A0}
